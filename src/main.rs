@@ -1,4 +1,6 @@
+use plotters::prelude::*;
 use std::io;
+use std::ops::Div;
 
 fn main() {
     let mut n: String = String::new();
