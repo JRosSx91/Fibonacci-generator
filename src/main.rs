@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    let mut n = String::new();
+    let mut n: String = String::new();
 
     println!("How many numbers do you want to see?");
 
