@@ -1,5 +1,16 @@
+use std::io;
+
 fn main() {
-    let n = 10; // Define hasta qué número quieres la secuencia de Fibonacci
+    let mut n = String::new();
+
+    io::stdin()
+        .read_line(&mut n)
+        .expect("Falló al leer la línea");
+
+    let n: u32 = match n.trim().parse() {
+        Ok(num) => num,
+        Err(_) => return,
+    };
 
     for i in 0..n {
         println!("{}", fibonacci(i));
