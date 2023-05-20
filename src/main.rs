@@ -3,6 +3,8 @@ use std::io;
 fn main() {
     let mut n = String::new();
 
+    println!("How many numbers do you want to see?");
+
     io::stdin()
         .read_line(&mut n)
         .expect("Falló al leer la línea");
