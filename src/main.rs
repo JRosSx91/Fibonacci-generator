@@ -2,10 +2,11 @@ use std::io;
 
 fn main() {
     let mut n: String = String::new();
+    let stdin = io::stdin();
 
     println!("How many numbers do you want to see?");
 
-    io::stdin().read_line(&mut n).expect("Failed to read line");
+    stdin.read_line(&mut n).expect("Failed to read line");
 
     let n: u32 = match n.trim().parse() {
         Ok(num) => num,
