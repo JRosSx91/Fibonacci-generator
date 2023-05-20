@@ -8,7 +8,7 @@ fn main() {
 
     stdin.read_line(&mut n).expect("Failed to read line");
 
-    let n: u32 = match n.trim().parse() {
+    let n: u128 = match n.trim().parse() {
         Ok(num) => num,
         Err(_) => return,
     };
@@ -17,7 +17,7 @@ fn main() {
         println!("{}", fibonacci(i));
     }
 }
-fn fibonacci(n: u32) -> u32 {
+fn fibonacci(n: u128) -> u128 {
     match n {
         0 => 0,
         1 => 1,
