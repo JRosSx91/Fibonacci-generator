@@ -18,9 +18,12 @@ fn main() {
     }
 }
 fn fibonacci(n: u128) -> u128 {
-    match n {
-        0 => 0,
-        1 => 1,
-        _ => fibonacci(n - 1) + fibonacci(n - 2),
+    let mut a: u128 = 0;
+    let mut b: u128 = 1;
+    for _ in 0..n {
+        let temp: u128 = a;
+        a = b;
+        b = temp + b;
     }
+    a
 }
