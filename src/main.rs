@@ -4,7 +4,7 @@ fn main() {
     let mut n: String = String::new();
     let stdin = io::stdin();
 
-    println!("How many numbers do you want to see?");
+    println!("How many n-numbers do you want to see?");
 
     stdin.read_line(&mut n).expect("Failed to read line");
 
