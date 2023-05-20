@@ -4,7 +4,7 @@ fn main() {
     let mut n: String = String::new();
     let stdin = io::stdin();
 
-    println!("How many n-numbers do you want to see?");
+    println!("How many n-numbers do you want to see?"); // El valor máximo sin desbordamiento es de n = 186
 
     stdin.read_line(&mut n).expect("Failed to read line");
 
@@ -13,17 +13,26 @@ fn main() {
         Err(_) => return,
     };
 
-    for i in 0..n {
-        println!("{}", fibonacci(i));
+    for i in 0..=n {
+        match fibonacci(i) {
+            Some(value) => println!("{}", value),
+            None => {
+                println!(
+                    "Fibonacci's value for n = {} is too big, even for Rust😥.",
+                    i
+                );
+                break;
+            }
+        }
     }
 }
-fn fibonacci(n: u128) -> u128 {
+fn fibonacci(n: u128) -> Option<u128> {
     let mut a: u128 = 0;
     let mut b: u128 = 1;
     for _ in 0..n {
-        let temp: u128 = a;
+        let temp = a;
         a = b;
-        b = temp + b;
+        b = temp.checked_add(b)?;
     }
-    a
+    Some(a)
 }
