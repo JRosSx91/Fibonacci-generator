@@ -5,9 +5,7 @@ fn main() {
 
     println!("How many numbers do you want to see?");
 
-    io::stdin()
-        .read_line(&mut n)
-        .expect("Falló al leer la línea");
+    io::stdin().read_line(&mut n).expect("Failed to read line");
 
     let n: u32 = match n.trim().parse() {
         Ok(num) => num,
