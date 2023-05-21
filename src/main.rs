@@ -19,10 +19,7 @@ fn main() {
         match fibonacci(i) {
             Some(value) => println!("{}", value),
             None => {
-                println!(
-                    "Fibonacci's value for n = {} is too big, even for Rust😥.",
-                    i
-                );
+                println!("Fibonacci's value for n = {} is too big😥.", i);
                 break;
             }
         }
