@@ -1,5 +1,5 @@
 use plotters::prelude::*;
-use std::io;
+use std::io::{self, Read};
 use std::ops::Div;
 
 fn main() {
@@ -24,6 +24,11 @@ fn main() {
             }
         }
     }
+
+    println!("\nPress Enter to exist...");
+
+    let mut _temp = String::new();
+    stdin.read_line(&mut _temp).expect("Failed to read");
 }
 fn fibonacci(n: u128) -> Option<u128> {
     let mut a: u128 = 0;
