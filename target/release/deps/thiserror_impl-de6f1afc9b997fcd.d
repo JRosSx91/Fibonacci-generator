@@ -1,0 +1,12 @@
+C:\Users\Ivan\labs\rust\Fibonacci-generator\fibonacci-generator\target\release\deps\thiserror_impl-de6f1afc9b997fcd.dll: C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\lib.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\ast.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\attr.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\expand.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\fmt.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\generics.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\prop.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\valid.rs
+
+C:\Users\Ivan\labs\rust\Fibonacci-generator\fibonacci-generator\target\release\deps\thiserror_impl-de6f1afc9b997fcd.d: C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\lib.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\ast.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\attr.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\expand.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\fmt.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\generics.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\prop.rs C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\valid.rs
+
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\lib.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\ast.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\attr.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\expand.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\fmt.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\generics.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\prop.rs:
+C:\Users\Ivan\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.40\src\valid.rs:
